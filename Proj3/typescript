@@ -1,0 +1,30 @@
+Script started on 2021-10-01 00:48:07-04:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="119" LINES="15"]
+[?2004h]0;tate@tate-VirtualBox: ~[01;32mtate@tate-VirtualBox[00m:[01;34m~[00m$ script./Project3 10[1P3
+[?2004lNumber of threads 3
+Please specify your value and index: 
+3 1
+Please specify your value and index: 
+4 2
+Please specify your value and index: 
+6 1
+Please specify your value and index: 
+5 1
+Please specify your value and index: 
+7 3
+Please specify your value and index: 
+9 2
+Please specify your value and index: 
+-1 7 1
+There's a problem with your inputs, please try again
+Please specify your value and index: 
+1 4
+There's a problem with your inputs, please try again
+Please specify your value and index: 
+
+The result from thread 3 is 7 from 1 opperations during 41 seconds
+The result from thread 2 is 13 from 2 opperations during 41 seconds
+The result from thread 1 is 14 from 3 opperations during 41 seconds
+[?2004h]0;tate@tate-VirtualBox: ~[01;32mtate@tate-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2021-10-01 00:49:00-04:00 [COMMAND_EXIT_CODE="0"]

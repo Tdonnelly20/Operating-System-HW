@@ -1,0 +1,97 @@
+Script started on 2021-09-17 19:35:34-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="188" LINES="17"]
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ exit./proj2 "test.txt" T p2[1Pg++ proj2.cpp -o proj2./proj2 "test.txt" T p2[1Pg++ proj2.cpp -o proj2./proj2 "test.txt" T p2[1Pg++ proj2.cpp -o proj2./proj2 "test.txt" T p2[1Pg++ proj2.cpp -o proj2./proj2 "test.txt" T p2[K[K[K
+[?2004lFile size: 28
+There are 2 'T's in test.txt
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ ./proj2 "test.txt" T 1
+[?2004lFile size: 1
+There are 1 'T's in test.txt
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ ./proj2 "test.txt" T 16
+[?2004lFile size: 16
+There are 2 'T's in test.txt
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ ./proj2 "test.txt" T 16[K[Kmmap
+[?2004lFile size: 28
+Testing mmap() now
+Mapped found 2 'T's
+Testing completed, matching farray and mapped was successful
+There are 2 'T's in test.txt
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ ./proj2 "test.txt" T mmap[K[K[K[Kp2
+[?2004lThere are 2 parallel processes
+File size: 28
+Parallel Process #0 has 2 'T's
+Parallel Process #1 has 0 'T's
+Farray Count: 2
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ ./proj2 "test.txt" T p2mmap[2P16[K[Kp17
+[?2004lToo many processes
+: Success
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ ./proj2 "test.txt" T p17[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kover8192.txt" T
+[?2004lFile size is over 8192 bytes
+: Success
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ ./proj2 "over8192.txt" T[1P T[1P T[1P T[1P T[1P T[1P T[1P T[1P T[1P T[1P T[1P T[1P T[1P T[1P Tp Tr To Tj T2 T. Tc Tp Tp T[C[C[K""[K "
+[?2004lFile size: 6583
+There are 1499 ' 's in proj2.cpp
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ ./proj2 proj2.cpp " " p16
+[?2004lThere are 16 parallel processes
+File size: 6583
+Parallel Process #0 has 46 ' 's
+Parallel Process #1 has 72 ' 's
+Parallel Process #2 has 72 ' 's
+Parallel Process #3 has 72 ' 's
+Parallel Process #4 has 72 ' 's
+Parallel Process #5 has 72 ' 's
+Parallel Process #6 has 72 ' 's
+Parallel Process #7 has 72 ' 's
+Parallel Process #8 has 72 ' 's
+Parallel Process #9 has 72 ' 's
+Parallel Process #10 has 72 ' 's
+Parallel Process #11 has 72 ' 's
+Parallel Process #12 has 72 ' 's
+Parallel Process #13 has 72 ' 's
+Parallel Process #14 has 72 ' 's
+Parallel Process #15 has 72 ' 's
+Farray Count: 1499
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ ./proj2 proj2.cpp " " p16[K[K[Kmmap
+[?2004lFile size: 6583
+Testing mmap() now
+Mapped found 1499 ' 's
+Testing completed, matching farray and mapped was successful
+There are 1499 ' 's in proj2.cpp
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ ./proj2 proj2.cpp " " mmap[1Pp16[K[K[K1[K658[K00
+[?2004lFile size: 6500
+There are 1489 ' 's in proj2.cpp
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ ./proj2 proj2.cpp " " 6500mmap[1Pp16[K"over8192.txt" Ttest.txt" T p17[1P2mmap[2P16[K[Kexit[K./proj2 "test.txt" T p2[1Pg++ proj2.cpp -o proj2./proj2 "test.txt" T p2[1Pg++ proj2.cpp -o proj2./proj2 "test.txt" T p2[1Pg++ proj2.cpp -o proj2./proj2 "test.txt" T p2[1Pg++ proj2.cpp -o proj2./proj2 "test.txt" T p2[1Pg++ proj2.cpp -o proj2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./doit proj2.cpp " "[K[K[K[K[K[K[K[K proj2.cpp " "
+[?2004lexecvp error
+
+Real time	0.0s
+User time	0.0s
+System Time	0.0s
+Nivcsw	2
+Nvcsw	1
+Majflt	0
+Minflt	33
+Maxrss	764kB
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ ./doit proj2 proj2.cpp " " mmap
+[?2004lexecvp error
+
+Real time	0.0s
+User time	0.0s
+System Time	0.0s
+Nivcsw	2
+Nvcsw	1
+Majflt	0
+Minflt	37
+Maxrss	888kB
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ ./doit proj2 proj2.cpp " " mmap[K[K[K[Kp16
+[?2004lexecvp error
+
+Real time	0.0s
+User time	0.0s
+System Time	0.0s
+Nivcsw	2
+Nvcsw	1
+Majflt	0
+Minflt	35
+Maxrss	824kB
+[?2004h]0;tate@tate-VirtualBox: ~/.atom[01;32mtate@tate-VirtualBox[00m:[01;34m~/.atom[00m$ exit
+[?2004lexit
+
+Script done on 2021-09-17 19:40:08-04:00 [COMMAND_EXIT_CODE="0"]
